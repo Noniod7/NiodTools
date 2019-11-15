@@ -1,0 +1,6 @@
+#Author : Noniod7
+#Contoh b'\xe3\x00\x00\x00\x00\x00\'
+py3=''
+
+#Contoh 'c\xe3\x00\x00\x00\x00\x00\'
+py2=''
