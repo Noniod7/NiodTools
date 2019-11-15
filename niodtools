@@ -1,0 +1,49 @@
+clear
+echo ' \033[1;36m╔═════════════════════════════╗'
+echo ' \033[1;36m║   \033[1;37mNIODTECH TOOLS ALL IN 1   \033[1;36m║'
+echo ' \033[1;36m║   \033[1;37mAuthor : Noniod7          \033[1;36m║'
+echo ' \033[1;36m║   \033[1;37mDate   : 15/11/2019       \033[1;36m║'
+echo ' \033[1;36m╠═════════════════════════════╝'
+echo ' \033[1;36m╚══════▶\033[1;35mList Tools'
+   python2 loadniod
+clear
+echo ' \033[1;36m╔═════════════════════════════╗'
+echo ' \033[1;36m║   \033[1;37mNIODTECH TOOLS ALL IN 1   \033[1;36m║'
+echo ' \033[1;36m║   \033[1;37mAuthor : Noniod7          \033[1;36m║'
+echo ' \033[1;36m║   \033[1;37mDate   : 15/11/2019       \033[1;36m║'
+echo ' \033[1;36m╠═════════════════════════════╝'
+echo ' \033[1;36m╠══════▶\033[1;35mList Tools'
+echo ' \033[1;36m╠═▶\033[1;34m[\033[1;32m01\033[1;34m] \033[1;33mDark FB Niod'
+echo ' \033[1;36m╠═▶\033[1;34m[\033[1;32m02\033[1;34m] \033[1;33mDelete Duplicate'
+echo ' \033[1;36m╠═▶\033[1;34m[\033[1;32m03\033[1;34m] \033[1;33mDorker/Dorking'
+echo ' \033[1;36m╠═▶\033[1;34m[\033[1;32m04\033[1;34m] \033[1;33mDecrypt Python'
+echo ' \033[1;36m╠═▶\033[1;34m[\033[1;32m05\033[1;34m] \033[1;33mEncrypt Python'
+echo ' \033[1;36m╠═▶\033[1;34m[\033[1;31m00\033[1;34m] \033[1;31mQuit\033[1;36m'
+ read -p " ╰━╤═╤━────━ ҂ " niodtech
+case $niodtech in
+01)
+python2 dark-niod
+;;
+02)
+php del-dup
+;;
+03)
+python dork
+;;
+04)
+python2 deco-py
+;;
+05)
+python enc-py
+;;
+00)
+clear
+echo "\033[1;37mTerimakasih Telah Mengunakan Tool Ini :v"
+exit
+;;
+*)
+echo "Input Not Found"
+sleep 2
+sh niodtools
+;;
+esac
