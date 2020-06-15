@@ -8,4 +8,8 @@ $ pkg install git<br>
 $ git clone https://github.com/NiodTech/NiodTools<br>
 $ cd NiodTools<br>
 $ python2 ToolsNiodTech.py<br><br>
+
+Note 
+Username : NiodTech
+Password : Noniod7
 Ya maaf, we ka  lamer :v
